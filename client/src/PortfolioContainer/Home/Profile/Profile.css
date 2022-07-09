@@ -40,6 +40,7 @@
 }
 .profile-options .highlighted-btn{
     margin: 0 0 0 28px;
+    border-radius: 12px solid white;
 }
 .profile-options .highlighted-btn:hover{
     margin: 0 0 0 28px;
@@ -61,7 +62,6 @@
     width: 92%;
     background-image: url("../../Assets/HOME//profilepic.jpg");
     background-size: cover;
-    border-radius: 50%;
     background-repeat: no-repeat;
     background-position: fixed;
 }
@@ -77,6 +77,7 @@
 .colz .colz-icon i:hover{
     transform: scale(1.5);
 }
+
 @media screen and (max-width: 1110px){
     .profile-picture{
         margin: 0 0px 0 80px;
@@ -85,7 +86,7 @@
         font-size:20px;
     }
     .profile-details-role .primary-text{
-        font-size: 12px;
+        font: 12px;
     }
     .profile-options .btn{
         width: 120px;
@@ -131,6 +132,6 @@
         margin-top: -90px;
     }
     .profile-details{
-        width: 90%;
+        width: 95%;
     }
 }
