@@ -1,11 +1,12 @@
 import React from 'react';
 import './Footer.css';
 
-function Footer() {
+export default function footer() {
     return (
         <div className='footer-container'>
             <div className='footer-parent'>
-                <img src={require ("../../../Assets/HOME/shape-bg.png").deafult}
+                <img 
+                src={require ("../../../Assets/HOME/shape-bg.png").default}
                 alt="you have problem with the image"/>
             </div>
         </div>
