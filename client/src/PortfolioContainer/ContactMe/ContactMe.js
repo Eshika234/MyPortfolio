@@ -80,7 +80,7 @@ export default function ContactMe(props) {
           </a>
          
          
-          <a href="https://github.com/Eshiks234">
+          <a href="https://github.com/Eshika234">
             <i className="fa fa-github" />
           </a>
         </div>
