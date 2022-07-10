@@ -1,10 +1,10 @@
 import React from 'react';
-import Profile from './Profile/Profile';
-import Footer from  "./Footer/Footer";
-import Header from  "./Header/Header";
+import Profile from './Header/Header';
+import Footer from  "./Profile/Profile";
+import Header from  "./Footer/Footer";
 import "./Home.css";
 
-export default function Home(){
+ function Home(props){
     return (
     <div className="home-container">
         <Header />
@@ -14,3 +14,4 @@ export default function Home(){
     );
 }
 
+export default Home;
