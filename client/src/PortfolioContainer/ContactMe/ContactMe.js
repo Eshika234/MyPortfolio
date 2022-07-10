@@ -8,6 +8,7 @@ import load1 from "../../../src/images/load2.gif";
 import ScreenHeading from "../../Utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../Utilities/ScrollService";
 import Animations from "../../Utilities/Animations";
+import Footer from "../Footer/Footer";
 import "./ContactMe.css";
 
 export default function ContactMe(props) {
