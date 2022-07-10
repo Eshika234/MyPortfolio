@@ -1,9 +1,9 @@
 import React from 'react'
 import Typical from 'react-typical';
 import './Profile.css';
+import Typical from "react-typical";
 
-
-export default function Profile() {
+const Profile()=>{
   return (
     <div className="profile-container">
         <div className="profile-parent">
@@ -74,6 +74,6 @@ export default function Profile() {
     </div>
   </div>
   );
-}
+};
 
-
+export default Profile;
