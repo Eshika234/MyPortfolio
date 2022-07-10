@@ -1,15 +1,14 @@
-import React from 'react';
+import React from 'react'
 import './Footer.css';
-
-export default function footer() {
+const Footer = () => {
     return (
-        <div className='footer-container'>
-            <div className='footer-parent'>
-                <img 
-                src={require ("../../../Assets/HOME/shape-bg.png").default}
-                alt="you have problem with the image"/>
+        <div className="footer-container">
+            <div className="footer-parent">
+                <img src={require('../../../assets/Home/shape-bg.png')} alt="Your Browser doesn't supports SVG"/>
             </div>
         </div>
-    );
+    )
 }
+
+export default Footer;
 
