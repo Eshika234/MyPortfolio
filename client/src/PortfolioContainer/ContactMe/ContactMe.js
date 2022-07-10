@@ -11,7 +11,7 @@ import Animations from "../../Utilities/Animations";
 import Footer from "../Footer/Footer";
 import "./ContactMe.css";
 
-export default function ContactMe(props) {
+const ContactMe=(props)=> {
   let fadeInScreenHandler = (screen) => {
     if (screen.fadeScreen !== props.id) return;
     Animations.animations.fadeInScreen(props.id);
@@ -117,6 +117,10 @@ export default function ContactMe(props) {
           </form>
         </div>
       </div>
-    </div>
+   <Footer />
+   </div>
+   
   );
 }
+
+export default ContactMe;
